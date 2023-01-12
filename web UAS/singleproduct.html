@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styleproduct.css">
+    <title>Singleproduct</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../web/spatunew.png" alt="" width="50" height="50" class="me-2">
+                <strong>pitchpass</strong>
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari">
+                <button class="btn btn-light" type="submit">Cari</button>
+            </form>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Keranjang</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Daftar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Masuk</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container">
+        <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
+            <ol class="breadcrumb p-3">
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Beranda</a></li>
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Kategori</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Produk</li>
+            </ol>
+          </nav>
+    </div>
+
+    <div class="container">
+        <div class="row row-product">
+            <class class="col-lg-5">
+                <figure class="figure">
+                    <img src="produk-baju.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 450px;">
+                    <figcaption class="figure-caption d-flex justify-content-evenly">
+                        <a href="#">
+                            <img src="produk-baju.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+
+                        <a href="#">
+                            <img src="produk-baju.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+
+                        <a href="#">
+                            <img src="produk-baju.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+
+                        <a href="#">
+                            <img src="produk-baju.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                        <a href="#">
+                            <img src="produk-baju.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                    </figcaption>
+                </figure>
+            </class>
+
+            <class class="col-lg-7">
+                <h4>Colorbox Disney</h4>
+                <div class="garis-product"></div>
+                <h3 class="text-muted mb-2">Rp 249.000</h3>
+
+                <button class="button btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+                <span class="mx-2">1</span>
+                <button class="button btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button>
+                <span class="mx-2">Tersisa 28 Pasang</span>
+
+                <div class="btn-product mt-4">
+                    <a href="#" class="btn btn-dark btn-lg" style="font-size: 14px"><i class="fas fa-shopping-card fs-6 mm-2"></i>Masukkan Keranjang</a>
+                    <a href="#" class="btn btn-warning btn-lg" style="font-size: 14px">Beli Sekarang</a>
+                </div>
+            </class>
+        </div>
+        
+        <div class="row row-product">
+          <div class="col-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="deskripsi-tab" data-bs-toggle="tab" data-bs-target="#deskripsi" type="button" role="tab" aria-controls="deskripsi" aria-selected="true">Deskripsi Produk</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review Produk</button>
+              </li>
+            </ul>
+            <div class="tab-content p-3" id="myTabContent">
+              <div class="tab-pane fade show active deskripsi" id="deskripsi" role="tabpanel" aria-labelledby="deskripsi-tab">
+                <p>
+                  Colorbox Disney</br>
+
+                  Spesifikasi :</br>
+                  Style = Oversized T-Shirt</br>
+                  Material = Cotton</br>
+                  Color = Gray</br>
+                  Desain = Trendy</br>
+                </p>
+              </div>
+              <div class="tab-pane fade review" id="review" role="tabpanel" aria-labelledby="review-tab">
+                <div class="class-row">
+                  <div class="col-1">
+                    <img src="orang-1.jpeg" class="review-img rounded-circle">
+                  </div>
+                  <div class="col-1">
+                    <h5 class="review-name">Vano Anggara</h5>
+                    <p class="review-des">Produk Original, Pengiriman cepat</p>
+                  </div>
+                </div>
+
+                <div class="class-row">
+                  <div class="col-1">
+                    <img src="orang-2.jpg" class="review-img rounded-circle">
+                  </div>
+                  <div class="col-1">
+                    <h5 class="review-name">Elmira Revalina</h5>
+                    <p class="review-des">Pelayanan mantap, pengiriman juga cepat</p>
+                  </div>
+                </div>
+
+                <div class="class-row">
+                  <div class="col-1">
+                    <img src="orang-3.jpeg" class="review-img rounded-circle">
+                  </div>
+                  <div class="col-1">
+                    <h5 class="review-name">Azka Nugroho</h5>
+                    <p class="review-des">Barang sudah sampai dengan selamat, sangat recomended</p>
+                  </div>
+                </div>
+
+                <div class="class-row">
+                  <div class="col-1">
+                    <img src="orang-4.jpeg" class="review-img rounded-circle">
+                  </div>
+                  <div class="col-1">
+                    <h5 class="review-name">Alvaro Adijaya</h5>
+                    <p class="review-des">Seller nya ramah, penjualan produk sangat bagus</p>
+                  </div>
+                </div>
+
+                <div class="class-row">
+                  <div class="col-1">
+                    <img src="orang-5.jpg" class="review-img rounded-circle">
+                  </div>
+                  <div class="col-1">
+                    <h5 class="review-name">Clarissa Yunita</h5>
+                    <p class="review-des">Barang berkualitas, packing aman</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href=""class="text-decoration-none">
+              <img src="spatunew.png" style="width: 30px;">
+            </a>
+            <span>Copyright @2022 | Created by <a href="https://www.instagram.com/ikfinakmlyrr/?hl=en" class="text-decoration-none text-dark fw-bold">Ikfina Kamaliya R.</a></span>
+          </div>
+
+          <div class="col-md-6 text-end">
+            <a href=""class="text-decoration-none">
+              <img src="facebook.png" class="ms-2" style="width: 32px;">
+            </a>
+            <a href=""class="text-decoration-none">
+              <img src="twitter.png" class="ms-2" style="width: 30px;">
+            </a>
+            <a href=""class="text-decoration-none">
+              <img src="instagram.png" class="ms-2" style="width: 30px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
